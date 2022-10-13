@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="scheme-container">
+    <div class="nav">
+        <input id="seed-color" type="color">
+        <select name="color scheme mode" id="scheme-mode">
+            <option value="monochrome">Monochrome</option>
+            <option value="monochrome-dark">monochrome-dark</option>
+            <option value="monochrome-light">monochrome-light</option>
+            <option value="analogic">analogic</option>
+            <option value="complement">complement</option>
+            <option value="analogic-complement">analogic-complement</option>
+            <option value="triad">triad</option>
+            <option value="quad">quad</option>
+        </select>
+        <button id="get-colors">Get color scheme</button>
+        <p id="target"></p>
+    </div>
+    <div id="content-container">
+       <div id="color-list"> </div>
+        <div id="hexcodes-container">
+            <p class="hex-codes">#000000</p>
+            <p class="hex-codes">#1A1919</p>
+            <p class="hex-codes">#343232</p>
+            <p class="hex-codes">#4F4A4A</p>
+            <p class="hex-codes">#6A6262</p>
+        </div>
+    </div>
+</div>
+ <script src="index.js"></script>   
+</body>
+</html>
